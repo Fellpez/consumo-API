@@ -26,7 +26,7 @@ function Pokedex() {
             : 
             (
                 <button className="botaoAbrir" onClick={() => alteraAbrirPokedex(true)}>
-                    Abrir Pokédex
+                    
                 </button>
             )}
 
@@ -60,9 +60,9 @@ function Pokedex() {
                 <div className="bordaVisorInformacoes">
                     <div className="visorInformacoes">
                         <h2 className="nomePokemon">Nome: {pokemon.name}</h2>
-                        <p className="tipoPokemon">Tipo: {pokemon.types?.[0]?.type.name}</p>
+                        <p className="tipoPokemon">Tipo: {pokemon.types?.map(i => i.type?.name +' ')}</p>
 
-                        <img className="imagem" src={pokemon.sprites?.front_default} width="250" />
+                        <img className="imagem" src= {pokemon.sprites?.other?.showdown?.front_default} width="250" />
                       
                         <p className="habilidadesPokemon">Habilidades: {pokemon.abilities?.[0]?.ability.name}</p>
                     </div>
