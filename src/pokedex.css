@@ -1,0 +1,169 @@
+@import url('https://fonts.cdnfonts.com/css/pocket-monk');
+@import url('https://fonts.cdnfonts.com/css/pokemon-hollow');
+@import url('https://fonts.cdnfonts.com/css/depixel');
+
+body{
+    font-family: 'Pocket Monk', Arial, sans-serif;
+    background-image:url(./pikachu.jpg);
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.botaoAbrir{
+    font-size: 32px;
+    position: fixed;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:620px;
+    height:670px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #db0b0b;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px 6px 6px 70px;
+    cursor: pointer;
+}
+.botaoAbrir:hover{
+    background-color: #e01a1a;
+}
+.botaoFechar{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #696969;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.botaoFechar:hover{
+    background-color: #757474;
+}   
+.pokedexGrupo{
+    width: 600px;
+    margin: 10px auto 0px;
+    padding: 20px;
+    color: #fff;
+    background-color: #db0b0b;
+    border-radius: 6px 6px 6px 70px;
+}
+.cameraGrupo{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+.camera{
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.camera2{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 6px;
+    left:6px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.bordaVisor{
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 6px 6px 6px 70px;
+}
+.visorPokedex{
+    padding: 4px;
+    background-color: #000000;
+    border-radius: 40px;
+    margin:30px;
+}
+.titulo{
+    background-color: #000000;
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+.descricao{
+    background-color: #000000;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;    
+}
+.inputPesquisa{
+    width: 80%;
+    background-color: aqua;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align: center;
+}
+.botaoPesquisar{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #696969;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.botaoPesquisar:hover{
+    background-color: #757474;
+}
+.bordaVisorInformacoes{
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 70px 6px 6px 6px;
+}
+.visorInformacoes{
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+    padding: 4px;
+    background-color: #000000;
+    border-radius: 40px;
+    margin:10px;
+}
+.informacoesPokemon{
+    width: 600px;
+    margin: 2px auto;
+    padding: 20px;
+    color: #fff;
+    background-color: #db0b0b;
+    border-radius: 70px 6px 6px 6px;
+}
+.nomePokemon{
+    font-family: 'Depixel', Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin: 20px 0 0 20px;
+}
+.tipoPokemon{
+    font-family: 'Depixel', Arial, sans-serif;
+    text-align: left;
+    font-size: 16px;
+    margin: 0px 0 10px 20px;
+}
+.imagem{
+    display: block;
+    margin: 1px auto 1px auto;
+}
+.habilidadesPokemon{
+    font-family: 'Depixel', Arial, sans-serif;
+    text-align: left;
+    font-size: 28px;
+    margin: 50px 0 10px 20px;
+}
+    
